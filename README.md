@@ -18,7 +18,9 @@ Pour créez un environnement virtuel et installez les requirements :
     $ pip install -r requirements.txt
 
 
-Pour initialiser la base de données :  $ python init_db.py
+Pour initialiser la base de données :  
+
+    $ python init_db.py
 
 Démarrez le serveur de développement :
 
@@ -26,8 +28,14 @@ Démarrez le serveur de développement :
       ...
     * Cliquer http://127.0.0.1:5000/ (et CTRL+C pour quitter)
 
-sur votre navigateur, vous avez accès directement en local sur : http://127.0.0.1:5000/
+sur votre navigateur, vous avez accès directement en local sur : 
+    
+    http://127.0.0.1:5000/
 
+Docker
+==
+Il y a un dockerfile à l'intérieur du zip que vous pouvez builder assez facilement.
+Je ferai une MAJ prochainement pour le lien du serveur sur lequel il sera déployé.
 
 Tests
 ------
